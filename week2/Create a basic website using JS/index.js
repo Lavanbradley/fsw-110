@@ -1,6 +1,13 @@
 var nav = document.createElement('NAV');
-nav.innerHTML = '<a href="/html/">http://www.google.com</a>';
+var home = document.createElement('a');
+home.textContent ='Home'
+var about = document.createElement('a');
+about.textContent = 'About';
 document.body.appendChild(nav);
+document.body.appendChild(home);
+document.body.appendChild(about);
+
+
 
 var h1 = document.createElement('h1');
 h1.textContent = 'Hello world';
@@ -15,9 +22,9 @@ var ol = document.createElement('ol');
 var listItem1 = document.createElement('li');
 var listItem2 = document.createElement('li');
 var listItem3 = document.createElement('li');
-listItem1.textContent= 'Heres';
-listItem2.textContent= 'the';
-listItem3.textContent= 'list';
+listItem1.textContent = 'Heres';
+listItem2.textContent = 'the';
+listItem3.textContent = 'list';
 ol.appendChild(listItem1);
 ol.appendChild(listItem2);
 ol.appendChild(listItem3);

@@ -1,8 +1,10 @@
 var nav = document.createElement('NAV');
 var home = document.createElement('a');
 home.textContent ='Home'
+home.style.padding = '30px';
 var about = document.createElement('a');
 about.textContent = 'About';
+about.style.padding = '30px'
 document.body.appendChild(nav);
 document.body.appendChild(home);
 document.body.appendChild(about);
@@ -33,4 +35,7 @@ document.body.appendChild(ol);
 var footer = document.createElement('footer');
 footer.textContent = 'Footer';
 document.body.appendChild(footer);
+
+
+
 

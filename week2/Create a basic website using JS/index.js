@@ -18,8 +18,7 @@ document.body.appendChild(h1);
 var para = document.createElement('p');
 para.textContent = 'Here is my p tag';
 document.body.appendChild(para);
-
-
+ 
 var ol = document.createElement('ol');
 var listItem1 = document.createElement('li');
 var listItem2 = document.createElement('li');

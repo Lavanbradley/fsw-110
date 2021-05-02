@@ -1,0 +1,19 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#container {
+  background-color: #fbb12f;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#square {
+  background-color: white;
+  height: 250px;
+  width: 250px;
+}

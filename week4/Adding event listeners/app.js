@@ -26,11 +26,9 @@ var p = document.createElement('p');
 p.innerHTML = 'More content';
 document.body.appendChild(p);
 
-window.addEventListener('scroll', function () {
+window.addEventListener('wheel', function () {
   square.style.backgroundColor = 'purple'
-  const scrollable = document.documentElement.scrollHeight - window.innerHeight;
-  const scrolled = window.scrollY;
-  if (scrolled === scrollable) {
+  {
     square.style.backgroundColor('black');
   }
 })
@@ -42,11 +40,11 @@ function checkKeyPress(key) {
     square.style.backgroundColor = 'red';
   } if (key.keyCode == '71') {
     square.style.backgroundColor = 'green';
-  }  if (key.keyCode == '89') {
+  } if (key.keyCode == '89') {
     square.style.backgroundColor = 'yellow';
-  }  if (key.keyCode == '66') {
+  } if (key.keyCode == '66') {
     square.style.backgroundColor = 'blue';
-  }  if (key.keyCode == '80') {
+  } if (key.keyCode == '80') {
     square.style.backgroundColor = 'purple';
   }
 };

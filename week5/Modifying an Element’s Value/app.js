@@ -7,6 +7,6 @@ const lastName = document.getElementById('lname');
 
 
 form.addEventListener('submit', () => {
-  alert('Firstname: ' + firstName.value + ' ' + 'Middlename: ' + ' ' + middleName.value + ' ' + 'Lastname: ' + lastName.value);
-  
+  alert('Firstname: ' + firstName.value + '\n Middlename: ' + middleName.value + '\n Lastname: ' + lastName.value);
+
 })

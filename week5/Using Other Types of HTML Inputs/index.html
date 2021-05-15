@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <form action="#" id="form"><label>
+      <input type="text" id="fname" name="decision" value="First name" /><br />
+      <input type="text" id="lname" name="decision" value="Last name" /><br />
+      <input
+        type="number"
+        id="age"
+        name="decision"
+        value="age"
+        placeholder="age"
+      
+      /></label><br />
+
+      <label for="gender">Gender<br />
+      Male:
+      <input name="radio" type="radio" id="genderSelect" value="Male" /> Female:
+      <input name="radio" type="radio" id="genderSelect" value="Female" />
+      Other: <input name="radio" type="radio" id="genderSelect" value="Other" />
+    </label>
+      <br />
+
+      <label for="city">City?
+      <select name="select" id="city" >
+        <option value="Los Angeles" id="citySelect">Los Angeles</option>
+      <option value="San Francisco" id="citySelect">San Francisco</option>
+
+      <option value="Sacramento" id="citySelect">Sacramento</option>
+      </select></label><br>
+
+
+
+
+
+     <span>Any dietary restrictions?</span><br>
+      <input type="checkbox" name="Eggs" value="Eggs" id="Eggs" /> Eggs <br />
+      <input type="checkbox" name="Milk" value="Milk" id="Milk" /> Milk <br />
+      <input type="checkbox" name="Peanuts" value="Peanuts" id="Peanuts" />
+      Peanuts <br />
+
+      <label for="question"></label><br />
+      Have you ever shopped here before?<br>
+      Yes: <input type="radio" name="question" id="question" value="Yes" /> No:
+      <input type="radio" name="question" id="question" value="No" /><br />
+
+      <button type="button" value="submit" id="button" name="submit">
+        Submit
+      </button>
+    </form>
+    <script src="app.js"></script>
+  </body>
+</html>

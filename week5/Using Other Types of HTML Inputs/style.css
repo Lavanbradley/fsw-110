@@ -1,0 +1,13 @@
+* {
+  background: lime;
+}
+label,
+#fname,
+#lname,
+#age {
+  display: block;
+}
+#button {
+  border: 3px solid black;
+  background: lightgray;
+}

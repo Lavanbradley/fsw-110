@@ -1,13 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <script src="app.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul class="navList">
+        <li class="listItems"><a href="#">HOME</a></li>
+        <li class="listItems"><a href="#">ACCOUNT</a></li>
+        <li class="listItems"><a href="#">CONTACT</a></li>
+      </ul>
+    </nav>
+    <header><h1>TEAM GREEN COFFEE</h1></header>
+    <div class="container">
+      <form action="#">
+        <p>
+          <label for="coffee"><b>Coffee $8:</b></label
+          ><input type="number" value="price" id="coffee" name="coffee" />
+        </p>
+        <img src="coffee.jpg" id="coffeeImg" alt="" />
+
+        <p>
+          <label for="bagel"><b>Bagel $2:</b></label
+          ><input type="number" value="price" id="bagel" name="bagel" />
+        </p>
+        <img src="bagel.jpg" alt="" />
+        <p>
+          <label for="water"><b>Water $3:</b></label
+          ><input type="number" value="price" id="water" name="water" />
+        </p>
+        <img src="water.jpg" alt="" />
+        <p id="total">TOTAL:</p>
+        <button id="btn"><b>Place Order</b></button>
+      </form>
+
+      <div class="discount">
+        <label for="signUp"><h3>Sign up for discounts!</h3></label>
+        <input type="text" />
+        <button id="signUp">Sign up</button>
+      </div>
+      <div class="table">
+        <table>
+          <tr>
+            <th>Coffee</th>
+            <th>Bagel</th>
+            <th>Water</th>
+          </tr>
+          <tr>
+            <td>100 calories</td>
+            <td>50 calories</td>
+            <td>0 calories</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <footer>
+      <p>EMAIL: teamgreen@email.com</p>
+      <p>URL: teamgreencoffe.com</p>
+      <p>Address:123 Green Ave, Los Angeles, CA</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
 </html>

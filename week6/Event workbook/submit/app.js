@@ -4,6 +4,6 @@
 
 var btn = document.querySelector('button');
 
-btn.addEventListener('click', function(e){
- e.preventDefault();
+btn.addEventListener('click', function (e) {
+  e.preventDefault();
 })

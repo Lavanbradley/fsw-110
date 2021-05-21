@@ -7,7 +7,7 @@ var y = event.clientY;
 
 var coor = "X coords: " + x + ", Y coords: " + y;
 
-alert(coor);
+box.innerHTML = coor;
 
 
 });

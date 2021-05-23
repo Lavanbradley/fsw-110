@@ -6,7 +6,6 @@ const age = document.getElementById('age');
 
 const city = document.getElementById('city');
 
-var btnSubmit = document.getElementById('button');
 
 
 btnSubmit.addEventListener('click', getRestrict);
@@ -38,12 +37,13 @@ function getRestrict() {
     }
   }
   
+  
 
 
 
 
 
-  alert('Firstname: ' + firstName.value + '\nLastname: ' + lastName.value + '\nGender: ' + gender + genderr+ '\nCity: ' + city.value + '\nDietary restrictions: ' + restrict + '\nHave you ever shopped with us: ' + question);
+  alert('Firstname: ' + firstName.value + '\nLastname: ' + lastName.value + '\nGender: ' + gender + '\nCity: ' + city.value + '\nDietary restrictions: ' + restrict + '\nHave you ever shopped with us: ' + question);
 
   document.getElementById('form').reset();
 }

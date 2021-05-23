@@ -1,0 +1,24 @@
+*{
+  background-color: red;
+}
+h1{
+  text-align: center;
+}
+span{
+  color: white;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  
+}
+input{
+background-color: white;
+}
+#addToDo{
+ 
+  background-color: white;
+  color: black;
+
+}
+

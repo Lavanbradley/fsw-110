@@ -5,7 +5,7 @@ const lastName = document.getElementById('lname');
 const age = document.getElementById('age');
 
 const city = document.getElementById('city');
-
+var btnSubmit = document.getElementById('button');
 
 
 btnSubmit.addEventListener('click', getRestrict);

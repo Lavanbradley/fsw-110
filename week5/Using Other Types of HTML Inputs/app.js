@@ -20,24 +20,18 @@ function getRestrict() {
   if (form.elements["Peanuts"].checked) {
     restrict.push(document.getElementById("Peanuts").value)
   }
-  var question = document.getElementById('question').value
-  var questionAnswer = "";
-  var a;
-  for (a = 0; a < question.length; a++) {
-    if (question[a].checked) {
-      questionAnswer = questionAnswer + question[a].value + " ";
-    }
-  }
-  const gender = document.getElementById("genderSelect").value
-  var genderAnswer = "";
-  var b;
-  for(b = 0; b < gender.length; b++){
-    if (gender[b].checked){
-      genderAnswer = genderAnswer + gender[b].value + " ";
-    }
-  }
-  
-  
+  // var question = document.getElementById('question').value
+  // var questionAnswer = "";
+  // var a;
+  // for (a = 0; a < question.length; a++) {
+  //   if (question[a].checked) {
+  //     questionAnswer = questionAnswer + question[a].value + " ";
+  //   }
+  // }
+
+  var gender = form.elements["genderSelect"].value;
+  var question = form.elements["question"].value;
+
 
 
 
